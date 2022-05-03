@@ -9,13 +9,12 @@ To run the game, simply run main.py
 This game was built using the latest version of pygame, at time of writing, v(2.1.2)
 The directory should contain the following files:
 
-
 main app:
 
 config.py
 display.py
 game_logic.py
-main.py
+main.py - entry point
 stack.py
 
 testing:
@@ -25,8 +24,9 @@ test_display.py
 test_logic.py
 test_stack.py
 
+To test a module, simply run its test file
+
 dependencies/misc:
 
 requirements.txt
-pentomino.png  - image of pentomino configuration that creates really cool game of life
 README.txt
